@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Url2short</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+    <h1 style="text-align: center; color: white;">Url Shortener</h1>
+    <br>
+    <form id="home-form" action="/shortened" method="post">
+        <label for="input">Paste the long url here</label><br>
+        <input type="text" name="long_url" placeholder="Give me the URL !!!"><br>
+        <input id="search" type="submit" value="Make it short">
+    </form>
+</body>
+</html>

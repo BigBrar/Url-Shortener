@@ -1,0 +1,62 @@
+input{
+	width: 300px;
+	height: 50px;
+	margin: 20px;
+	border: none;
+	border-radius: 10px;
+	font-family:'Courier New', monospace;
+	text-align: center;
+	size: 1.3em;
+}
+
+input:focus {
+	border: solid 5px #00FFCE;
+	outline: none;
+}
+#h1{
+    color: white;
+    font-family:'Courier New', monospace;
+	font-size: 1.8em;
+	font-weight: 900;
+	margin: 20px;
+}
+
+h3{	
+	color: rgb(154, 224, 23); 
+	font-family:'Courier New', monospace;
+	text-align: center;
+}
+
+h4{	
+	color: white; 
+	font-family:'Courier New', monospace;
+	text-align: center;
+}
+
+body{
+	background-color: black;
+	text-align: center;
+
+}
+label{
+	color: white;
+    font-family:'Courier New', monospace;
+	font-size: 15px;
+	font-weight: 900;
+    margin-top: 100px;
+}
+#search {
+	font-size: 1.2em;
+	font-family: 'Courier New', monospace;
+	font-weight: 900;
+	color: black;
+	width: 200px;
+}
+
+#search:hover {
+	background-color: #1bd279;
+	cursor: pointer;
+}
+#home-form{
+    margin-top: 100px;
+}
